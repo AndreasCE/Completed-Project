@@ -26,8 +26,7 @@ include "../function/db_reservasi.php";
                                     $kamar = $_POST['kamar'];
                                 
                                     mysqli_query($conn, "UPDATE booking set nama = '$nama', jml_orang = '$jml_orang', jml_kamar = '$jml_kamar', tgl_keluar = '$tgl_keluar', tgl_masuk = '$tgl_masuk', kamar = '$kamar' where id_user = '$id' ") or die(mysqli_error($conn));
-                                
-                                    header("Location: index.php");
+                               
                                 }
                                 
                                 ?>
