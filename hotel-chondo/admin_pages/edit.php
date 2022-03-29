@@ -30,6 +30,11 @@ include "../function/db_reservasi.php";
                                 }
                                 
                                 ?>
+<html>
+	<head>
+		<title>Edit</title>
+	</head>
+<body>
 <div class="room-booking ptb-100 white_bg">
             <div class="container">
                 <div class="row">
@@ -84,7 +89,8 @@ include "../function/db_reservasi.php";
                                         </select>
                                     </div>
                                     <div class="submit-form mt-25">
-                                        <button type="submit" name="submit">Check Availability</button>
+                                        <button type="submit" name="submit" class="btn btn-danger" >Edit</button>
+					    <a href="index.php" class="btn btn-primary" >Kembali</button
                                     </div>
                                 </form>
                                 
@@ -94,4 +100,6 @@ include "../function/db_reservasi.php";
                 </div>
             </div>
         </div>
+	</body>
+</html>
 
