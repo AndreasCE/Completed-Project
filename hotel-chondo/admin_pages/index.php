@@ -257,7 +257,7 @@ unset($_SESSION['message']);
                                         </select>
                                     </div>
                                     <div class="submit-form mt-25">
-                                        <button type="submit" name="submit">Check Availability</button>
+                                        <button type="submit" name="submit" class="btn btn-primary">Add</button>
                                     </div>
                                 </form>
                             </div>
